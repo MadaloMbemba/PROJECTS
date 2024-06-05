@@ -9,6 +9,9 @@ public:
     // Default constructor
     Rectangle() : length(0), width(0) {}
 
+    // Overloaded constructor
+    Rectangle(float l, float w) : length(l), width(w) {}
+
     // Destructor (does nothing for now)
     ~Rectangle() {}
 

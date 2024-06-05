@@ -1,8 +1,15 @@
 #include <iostream>
-#include "RECTANGLE.h"
+#include "Person.h"
+using namespace std;
+
 int main()
-class Rectangle MyRectangle;
-MyRectangle.setlength(10.0);
-MYRectangle.setwidith(5.0);
-float = MyRectangle.CalculateTheArea();
-cout<<"Area of the rectangle:" << area <<endl;
+{
+    Person Jane = Person("Jane", 60.0f);
+    Person John = Person("John", 60.0f);
+
+    float totalWeight = Jane + John;
+
+    cout << "Total weight: " << totalWeight << endl;
+
+    return 0;
+}
